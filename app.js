@@ -20,6 +20,6 @@ app.set('view engine', 'mustache');
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
-app.listen(port, () => console.log(`Expressjs-Validator listening on port ${port}!`));
+app.listen(port, () => console.log(`Expressjs-Validator listening on port ${port}`));
 
 module.exports = app;
